@@ -1,0 +1,24 @@
+{
+  "name": "pusoy-dos",
+  "version": "1.0.0",
+  "description": "Browser game for the popular Filipino card game, Pusoy dos.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrgmacandog/pusoy-dos.git"
+  },
+  "author": "Martin Macandog",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrgmacandog/pusoy-dos/issues"
+  },
+  "homepage": "https://github.com/mrgmacandog/pusoy-dos#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
